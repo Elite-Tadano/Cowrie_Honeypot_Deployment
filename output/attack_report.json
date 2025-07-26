@@ -1,0 +1,56 @@
+{
+  "top_ips": [
+    [
+      "192.109.206.146",
+      7
+    ]
+  ],
+  "successful_logins": [
+    "192.109.206.146"
+  ],
+  "top_commands": [
+    [
+      "ls",
+      8
+    ],
+    [
+      "exit",
+      7
+    ],
+    [
+      "ls -la",
+      3
+    ],
+    [
+      "echo \"fuckyou\"",
+      2
+    ],
+    [
+      "sudo su",
+      1
+    ],
+    [
+      "echo \"Fuck off\"",
+      1
+    ],
+    [
+      "echo \"hello\"",
+      1
+    ],
+    [
+      "echo \"funckkdfd\"",
+      1
+    ],
+    [
+      "echo \"dsfsdfdf\"",
+      1
+    ],
+    [
+      "cd /",
+      1
+    ]
+  ],
+  "total_commands": 33,
+  "total_sessions": 7,
+  "generated_at": "2025-07-26T06:20:59.880467"
+}
