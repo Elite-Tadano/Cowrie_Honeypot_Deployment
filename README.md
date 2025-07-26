@@ -18,6 +18,34 @@ This project provides a set of Python scripts to parse, analyze, and visualize l
 
 -----
 
+## 🚀 Getting Started
+
+### 1. Setup Cowrie Honeypot
+Follow the guide on Cowrie GitHub or use:
+```
+git clone https://github.com/cowrie/cowrie.git
+cd cowrie
+python3 -m venv cowrie-env
+source cowrie-env/bin/activate
+pip install -r requirements.txt
+cp etc/cowrie.cfg.dist etc/cowrie.cfg
+```
+Edit etc/cowrie.cfg to set ports, logging paths, etc.
+
+Start Cowrie:
+```bash
+bin/cowrie start
+```
+### 2. Run the Dashboard
+
+```bash
+python app.py
+```
+
+Then visit http://localhost:5000
+
+-----
+
 ## ⚙️ How It Works
 
 The process is handled by two main scripts:
