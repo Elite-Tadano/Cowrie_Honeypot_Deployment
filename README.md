@@ -146,9 +146,3 @@ The script will create an `output` directory containing the following files:
 2.  **`visual_report.html`**: An interactive HTML map. **Open this file in your web browser** to see the geolocation of attacker IPs. You can hover over points to see IP and country details.
 
 3.  **`ip_geolocation.json`**: A JSON array containing the raw geolocation data fetched from the API for each IP address.
-
------
-
-## ⚖️ License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
