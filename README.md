@@ -1,10 +1,10 @@
-# Cowrie Honeypot Log Analyzer & Visualizer 🍯
+# Cowrie Honeypot Log Analyzer & Visualizer 
 
 This project provides a set of Python scripts to parse, analyze, and visualize log data from a [Cowrie](https://github.com/cowrie/cowrie) SSH/Telnet honeypot. It extracts key attack metrics, identifies attacker IPs, and generates an interactive world map to show the geographic location of the attackers.
 
 -----
 
-## ✨ Features
+## Features
 
   * **Log Parsing**: Automatically parses Cowrie's plaintext log file (`cowrie.log`).
   * **Attack Analytics**: Extracts valuable information, including:
@@ -13,12 +13,12 @@ This project provides a set of Python scripts to parse, analyze, and visualize l
       * A list of all IPs that achieved a successful login.
       * Total number of connections and commands.
   * **JSON Report**: Generates a clean, structured `attack_report.json` file summarizing the analysis.
-  * **Geolocation Tracking** 🌍: Uses the [ip-api.com](http://ip-api.com/) service to find the geographic location of each unique attacker IP.
-  * **Interactive Visualization** 📊: Creates a `visual_report.html` file with an interactive world map plotting the location of attackers, built with Plotly.
+  * **Geolocation Tracking**: Uses the [ip-api.com](http://ip-api.com/) service to find the geographic location of each unique attacker IP.
+  * **Interactive Visualization**: Creates a `visual_report.html` file with an interactive world map plotting the location of attackers, built with Plotly.
 
 -----
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Setup Cowrie Honeypot
 Follow the guide on Cowrie GitHub or use:
@@ -46,7 +46,7 @@ Then visit http://localhost:5000
 
 -----
 
-## ⚙️ How It Works
+## How It Works
 
 The process is handled by two main scripts:
 
@@ -59,7 +59,7 @@ The data flows as follows:
 
 -----
 
-## ✔️ Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have the following set up:
 
@@ -69,7 +69,7 @@ Before you begin, ensure you have the following set up:
 
 -----
 
-## 🚀 Installation
+## Installation
 
 1.  **Clone the repository:**
 
@@ -107,7 +107,7 @@ Before you begin, ensure you have the following set up:
 
 -----
 
-## ▶️ Usage
+## Usage
 
 After installation and configuration, running the analysis is simple. Just execute the main parser script:
 
@@ -126,7 +126,7 @@ Once finished, the output files will be available in the `output/` directory.
 
 -----
 
-## 📄 Output Files
+## Output Files
 
 The script will create an `output` directory containing the following files:
 
